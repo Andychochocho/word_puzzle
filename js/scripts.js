@@ -23,3 +23,13 @@ function replaceVowel(letter) {
   }
   return letter;
 }
+
+$(function() {
+  $('form#puzzle').submit(function(event){
+    var userInput = $("#wordInput").val();
+    var result = wordPuzzle(userInput);
+    $(".hiddn").append(result);
+    $(".hiddn").show();
+    event.preventDefault();
+  });
+});
