@@ -1,5 +1,6 @@
-describe('wordPuzzle', function() {
-  it('will return true if it detects a vowel in given word', function() {
-    expect(wordPuzzle('tangy')).to.equal(true);
+describe('isVowel', function() {
+  it("will return true if the given letter is a vowel",function(){
+    expect(isVowel('a')).to.eql(true);
   });
+  
 });
