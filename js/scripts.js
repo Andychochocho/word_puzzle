@@ -1,6 +1,6 @@
-// function wordPuzzle(word) {
-//
-// }
+function wordPuzzle(word) {
+
+}
 
 function isVowel(letter) {
   var vowel = ['a','e','i','o','u'];
@@ -9,4 +9,5 @@ function isVowel(letter) {
       return true;
     }
   }
+  return false;
 }
