@@ -15,3 +15,9 @@ describe('replaceVowel',function() {
     expect(replaceVowel('f')).to.eql('f');
   })
 });
+
+describe('wordPuzzle',function(){
+  it("will return phrase with all the vowels replaced with -",function(){
+    expect(wordPuzzle('George Washington')).to.eql('G--rg- W-sh-ngt-n');
+  })
+})
