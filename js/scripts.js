@@ -16,4 +16,5 @@ function replaceVowel(letter) {
   if (isVowel(letter)) {
     return "-";
   }
+  return letter;
 }

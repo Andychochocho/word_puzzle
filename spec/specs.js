@@ -11,4 +11,7 @@ describe('replaceVowel',function() {
   it("will return a dash in replacement of a vowel",function(){
     expect(replaceVowel('e')).to.eql('-');
   });
+  it("will not return a dash in replacement of a consonant", function(){
+    expect(replaceVowel('f')).to.eql('f');
+  })
 });
