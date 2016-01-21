@@ -11,3 +11,9 @@ function isVowel(letter) {
   }
   return false;
 }
+
+function replaceVowel(letter) {
+  if (isVowel(letter)) {
+    return "-";
+  }
+}
